@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+<title>Title</title>
+<style>
+    * {
+        border: none;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        scroll-padding: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #FFFFFF;
+        border: none;
+    }
+    @font-face {
+        font-family: mian;
+        src: url(Fonts/Roboto-Regular.ttf);
+    }
+    .navbar {
+        border-bottom: 1px solid #F2F2F2;
+    }
+    .sidebar {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: auto;
+        padding-top: 20px;
+    }
+    .video-card img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .video-card .card-body {
+        padding: 10px;
+    }
+    .video-card {
+        border: none;
+    }
+    .video-thumbnail {
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+    }
+    .video-title {
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+    }
+    .channel-details {
+        font-size: 12px;
+        color: #666;
+    }
+    #left-div {
+        border: none;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        scroll-padding: 0;
+    }
+    .sdbr {
+        border: none;
+        margin-top: 2px;
+        border-radius: 12px;
+    }
+    #left1 {
+        border-bottom: 1px solid #E8E8E8;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #left2 {
+        border-bottom: 1px solid #E8E8E8;
+        height: 44vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #left3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sdbr :hover {
+        background-color: #F2F2F2;
+        border-radius: 12px;
+        color: #171717;
+    }
+    .nav-link {
+        color: #171717;
+    }
+    .forhov :hover {
+        background-color: #F2F2F2;
+        transition: all 0.3s;
+        transition-timing-function: ease-in;
+    }
+    #btns {
+        border: 1px solid #ECECEC;
+    }
+    .sdbr :focus {
+        background-color: #F2F2F2;
+        border-radius: 12px;
+        color: #171717;
+    }
+    li, ul, a, p {
+        font-family: mian;
+    }
+    #videogridnav {
+        border: none;
+    }
+    .navlinkbtn {
+        background-color: #F2F2F2;
+        border-radius: 10px;
+        margin-right: 20px;
+        font-size: 13px;
+    }
+    a {
+        text-decoration: none;
+        list-style: none;
+    }
+</style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Icons/YouTube-Logo.wine (1).svg" alt="YouTube Logo" style="width: 150px; height: 40px;">
+                </a>
+                
+                <form class="d-flex" style="margin-right: 100px;">
+                    <input class="form-control rounded-pill rounded-end-0" type="search" placeholder="Search" aria-label="Search" style="outline: none; box-shadow: none; border-color: #ECECEC; width: 40vw;">
+                    <button class="btn rounded-end-pill mx-0" type="submit" id="btns"><span class="rounded-end-pill"><a href="#"><img src="Icons/icons8-search-24 (1).png" alt=""></a></span></button>
+                    <ul class="navbar-nav"><li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="Icons/mini_icons8-microphone-32.png" alt="Profile" class="rounded-circle">
+                        </a>
+                    </li></ul>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="Icons/mini_Video Camera.png" alt="Profile" class="rounded-circle">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="Icons/mini_Youtube-notification-bells-vector-PNG.png" alt="Profile" class="rounded-circle">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="Icons/mini_unnamed.png" alt="Profile" class="rounded-circle">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Main Layout -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Sidebar -->
+                <div class="col-md-3 d-none d-md-block sidebar mt-0" id="left-div">
+                    <div id="left1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/homeori.png" alt="" style="margin-right: 20px;">Home</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/icons8-youtube-shorts-32.png" alt="" style="margin-right: 20px;">Shorts</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/icons8-video-playlist-32.png" alt="" style="margin-right: 20px;">Subscriptions</a></li>
+                    </ul>
+                    </div>
+                    <div id="left2" class="mt-3">
+                        <ul class="nav flex-column">
+                        <li class="nav-item fw-bold mb-3" style="margin-left: 15px;">You</li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/mini_History(1).png" alt="" style="margin-right: 20px;">History</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/mini_mini_playlist (1).png" alt="" style="margin-right: 27px;">Playlists</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/watch-later.png" alt="" style="margin-right: 20px;">Watch later</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/icons8-like-thumbs-up-button-from-popular-social-media-32.png" alt="" style="margin-right: 20px;">Liked vides</a></li>
+                    </ul>
+                    </div>
+                    <div id="left3" class="mt-3">
+                        <ul class="nav flex-column">
+                        <li class="nav-item fw-bold mb-3" style="margin-left: 15px;">Explore</li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/icons8-trending-32.png" alt="" style="margin-right: 20px;">Trending</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/mini_Music.png" alt="" style="margin-right: 20px;">Music</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/youtube-gaming.png" alt="" style="margin-right: 20px;">Gaming</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/icons8-google-news-32.png" alt="" style="margin-right: 20px;">News</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/icons8-trophy-32.png" alt="" style="margin-right: 20px;">Sports</a></li>
+                        </ul>
+                </div>
+                </div>
+    
+                <!-- Video Grid -->
+                <div class="col-md-9">
+                    <nav id="videogridnav" class="navbar navbar-expand-lg">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" href="#" style="background-color: black; color: white; padding: 10px 10px;">
+                                All
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" href="#">
+                                Music
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" href="#">
+                                Security Hackers
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" href="#">
+                                T-Series
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" href="#">
+                                Indian pop music
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" href="#">
+                                Gaming
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" href="#">
+                                Tamil Cinema
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" href="#">
+                                Podcasts
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" href="#">
+                                AI
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" i href="#">
+                                Website
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinkbtn" style="padding: 10px 8px;" href="#">
+                                Android
+                            </a>
+                        </li>
+                    </ul>
+                    </nav>
+                    <div class="row mt-3">
+                        <!-- Video Card -->
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/forWindows.html">
+                            <div class="card video-card">
+                                <img src="Images/windows-11-stock-3d-5689x2400-10781.png" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">Discover the beauty of Windows 11</p>
+                                    <p class="channel-details">Windows • 1M views • 2 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <!-- Repeat Video Card -->
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/Learn JAVASCRIPT in just 5 MINUTES (2020).mp4">
+                            <div class="card video-card">
+                                <img src="Images/java-script-logoon-dark-background-aw286n669vxuej30.jpg" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">Smartest language of modern era | JavaScript</p>
+                                    <p class="channel-details">Code With Harry • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/What is Node.js and how it works (explained in 2 minutes).mp4">
+                            <div class="card video-card">
+                                <img src="Images/node-j-s-logo-green-background-m9hanf62o04xrmi8.jpg" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">Powerful Backend programming language | Framewok of JS | Node Js</p>
+                                    <p class="channel-details">Code Academy • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/becoming rich is easy, actually.mp4">
+                            <div class="card video-card">
+                                <img src="Images/peakpx.jpg" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">How to Become a Billionaire</p>
+                                    <p class="channel-details">Billionaire Mindset • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/Rolls-Royce Ghost- World s first drive.mp4">
+                            <div class="card video-card">
+                                <img src="Images/pexels-lynxexotics-3764984.jpg" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">World's Most Luxurious Car | Rolls-Royce</p>
+                                    <p class="channel-details">Rolls-Royce • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/The New Mercedes-Maybach S-Class- World Premiere - Trailer.mp4">
+                            <div class="card video-card">
+                                <img src="Images/pexels-mikebirdy-120049.jpg" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">The GOAT of cars | Mercedes Benz</p>
+                                    <p class="channel-details">Mercedes • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/BMW M6 2013 Gran Coupé First Commercial Carjam TV HD Car TV Show 2013.mp4">
+                            <div class="card video-card">
+                                <img src="Images/pexels-mikebirdy-892522.jpg" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">Discover the New BMW M6</p>
+                                    <p class="channel-details">BMW • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/What is Python. .mp4">
+                            <div class="card video-card">
+                                <img src="Images/python-programming-language-stc3ieolyaqbclwv.jpg" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">World's Most popular and easy language | Python</p>
+                                    <p class="channel-details">Code With Harry • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/Central processing Unit - What is CPU - How CPU works - Animation.mp4">
+                            <div class="card video-card">
+                                <img src="Images/smart-microchip-background-motherboard-closeup-technology.jpg" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">How CPU Works?</p>
+                                    <p class="channel-details">IBM • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/No Copyright Drone Shots - Royalty free drone shots - free stock videos - Drone footage nature shots.mp4">
+                            <div class="card video-card">
+                                <img src="Images/pexels-asadphoto-1450360.jpg" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">Beauty of Beach</p>
+                                    <p class="channel-details">Travel With John • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/C++ in 100 Seconds.mp4">
+                            <div class="card video-card">
+                                <img src="Images/wp4009913-c-plus-plus-wallpapers.png" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">GOAT Programming language | World's Most Powerful Programming Language</p>
+                                    <p class="channel-details">Channel Name • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 mb-4 forhov">
+                        <a href="Videos Web/Videos/Rust in 100 Seconds.mp4">
+                            <div class="card video-card">
+                                <img src="Images/wp13125952-rust-lang-wallpapers.png" class="card-img-top video-thumbnail" alt="Video Thumbnail">
+                                <div class="card-body">
+                                    <p class="video-title">Most Popular and Powerful Programming Language | Binding in C++</p>
+                                    <p class="channel-details">Channel Name • 2M views • 5 days ago</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <!-- Add as many video cards as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+

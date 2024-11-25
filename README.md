@@ -1,34 +1,18 @@
 # 🌐 Welcome to **Mian Sudais's Professional Hub** 🚀  
 ![Header](https://your-image-link.com/banner.gif)
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=500&color=36BCF7&background=FFFFFF00&center=true&width=1000&lines=Welcome+to+My+Tech+Space!;💻+Full+Stack+Web+Developer;⚡+Cybersecurity+%26+Networking+Specialist;🔥+Passionate+Problem+Solver;🎯+Dedicated+to+Learning+%26+Innovation" alt="Typing Animation" />
-</p>
+<p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&duration=3000&pause=500&color=FE428E&background=FFFFFF00&center=true&vCenter=true&width=1000&lines=Welcome+to+My+Tech+Space!;💻+Full+Stack+Web+Developer;⚡+Cybersecurity+%26+Networking+Specialist;🔥+Innovative+Tech+Enthusiast;🎯+Dedicated+to+Excellence" alt="Typing Animation" /> </p>
 
 
 ## 🧭 **Quick Navigation**
 
-<p align="center">
-  <a href="https://github.com/MianSudaisKMS">
-    <img src="https://img.shields.io/github/followers/MianSudaisKMS?style=social" alt="GitHub Followers">
-  </a> 
-  <a href="https://your-portfolio-link.com">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-blue?style=flat-square&logo=firefox" alt="Portfolio">
-  </a>
-  <a href="https://www.linkedin.com/in/your-linkedin-profile/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
-  </a>
-  <a href="https://www.parrotsec.org/">
-    <img src="https://img.shields.io/badge/Parrot%20OS-Expert-green?style=flat-square&logo=linux" alt="Parrot OS">
-  </a>
-</p>
+<p align="center"> <a href="https://github.com/MianSudaisKMS"> <img src="https://img.shields.io/badge/Follow%20Me-on%20GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Followers"> </a> <a href="https://your-modern-portfolio-link.com"> <img src="https://img.shields.io/badge/My%20Portfolio-Click%20Here-blue?style=for-the-badge&logo=dribbble&logoColor=white" alt="Portfolio"> </a> <a href="https://www.linkedin.com/in/your-linkedin-profile/"> <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> <a href="https://www.parrotsec.org/"> <img src="https://img.shields.io/badge/Parrot%20OS-Explore%20Now-green?style=for-the-badge&logo=linux&logoColor=white" alt="Parrot OS"> </a> </p>
 
 
 ---
 
-🌐 **Who am I?**  
-
-Hi, I'm Mian Sudais! As a versatile developer, I specialize in creating cutting-edge web applications, robust backend systems, and secure networks. My journey spans across MEAN/MERN, scripting in PowerShell and Python, and building scalable applications with .NET and C++. I also have a deep passion for cybersecurity and networking, ensuring systems are both efficient and secure.
+🌟 **Who am I?**
+Hi, I'm Mian Sudais! I'm a versatile developer specializing in cutting-edge web applications, secure networks, and backend systems. Proficient in modern tools like MEAN/MERN, PowerShell, Python, and .NET, I also have a deep passion for cybersecurity and networking, ensuring robust and efficient solutions.
 
 
 
@@ -36,49 +20,41 @@ Hi, I'm Mian Sudais! As a versatile developer, I specialize in creating cutting-
 
 ## 💻 **Tech Stack**:
 
-### 🧑‍💻 **Languages**:
-<p align="center">
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/C%23-9b4f96?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-</p>
+### 🧑‍💻 **Languages:**
+<p align="center"> <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /> <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" /> </p>
 
-### 🧩 **Frameworks**:
-<p align="center">
-  <img src="https://img.shields.io/badge/Angular.js-E23237?style=flat-square&logo=angular&logoColor=white" alt="Angular.js" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-</p>
+### 🧩 **Frameworks:**
+<p align="center"> <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React.js" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" /> </p>
 
 ### 🛠️ **Development Platforms & Tools**:
 <p align="center">
-  <img src="https://img.shields.io/badge/Windows%20Terminal-4D4D4D?style=flat-square&logo=windows-terminal&logoColor=white" alt="Windows Terminal" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=.net&logoColor=white" alt=".NET" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/Windows%20Terminal-0C5DB9?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="Windows Terminal" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/PowerShell-0078D7?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Parrot%20OS-333333?style=for-the-badge&logo=linux&logoColor=white" alt="Parrot OS" />
 </p>
 
 ### 🎨 **Design & Multimedia**:
 <p align="center">
-  <img src="https://img.shields.io/badge/Adobe%20Dreamweaver-6DB33F?style=flat-square&logo=adobe-dreamweaver&logoColor=white" alt="Adobe Dreamweaver" />
-  <img src="https://img.shields.io/badge/Adobe%20Acrobat%20Reader-AC1C30?style=flat-square&logo=adobe-acrobat-reader&logoColor=white" alt="Adobe Acrobat Reader" />
-  <img src="https://img.shields.io/badge/Adobe%20After%20Effects-9999FF?style=flat-square&logo=adobe-after-effects&logoColor=white" alt="Adobe After Effects" />
-  <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=flat-square&logo=adobe-illustrator&logoColor=white" alt="Adobe Illustrator" />
-  <img src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=flat-square&logo=adobe-lightroom&logoColor=white" alt="Adobe Lightroom" />
-  <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white" alt="Adobe Photoshop" />
-  <img src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=flat-square&logo=adobe-premiere-pro&logoColor=white" alt="Adobe Premiere Pro" />
+  <img src="https://img.shields.io/badge/Adobe%20Dreamweaver-072830?style=for-the-badge&logo=adobe-dreamweaver&logoColor=green" alt="Adobe Dreamweaver" />
+  <img src="https://img.shields.io/badge/Adobe%20Acrobat%20Reader-FF0000?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Adobe Acrobat Reader" />
+  <img src="https://img.shields.io/badge/Adobe%20After%20Effects-9999FF?style=for-the-badge&logo=adobe-after-effects&logoColor=white" alt="Adobe After Effects" />
+  <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF7C00?style=for-the-badge&logo=adobe-illustrator&logoColor=white" alt="Adobe Illustrator" />
+  <img src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=for-the-badge&logo=adobe-lightroom&logoColor=white" alt="Adobe Lightroom" />
+  <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white" alt="Adobe Photoshop" />
+  <img src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=adobe-premiere-pro&logoColor=white" alt="Adobe Premiere Pro" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
 </p>
 
 ### 💾 **Databases**:
 <p align="center">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
+
 
 ---
 
@@ -117,7 +93,7 @@ Hi, I'm Mian Sudais! As a versatile developer, I specialize in creating cutting-
 ## 🚀 **Let's Collaborate!**  
 
 
-<p align="center"> <a href="mailto:miansudais776@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <a href="https://www.linkedin.com/in/your-linkedin-profile/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="https://github.com/your-username"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> </p>
+<p align="center"> <a href="mailto:miansudais776@gmail.com"> <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /> </a> <a href="https://www.linkedin.com/in/your-linkedin-profile/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> <a href="https://github.com/MianSudaisKMS"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> </a> </p>
 
 ---
 

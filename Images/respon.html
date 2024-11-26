@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+<title>Title</title>
+<style>
+    * {
+        border: none;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        scroll-padding: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #FFFFFF;
+        border: none;
+    }
+    @font-face {
+        font-family: mian;
+        src: url(Fonts/Roboto-Regular.ttf);
+    }
+    .navbar {
+        border-bottom: 1px solid #F2F2F2;
+    }
+    .sidebar {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: auto;
+        padding-top: 20px;
+    }
+    .video-card img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .video-card .card-body {
+        padding: 10px;
+    }
+    .video-card {
+        border: none;
+    }
+    .video-thumbnail {
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+    }
+    .video-title {
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+    }
+    .channel-details {
+        font-size: 12px;
+        color: #666;
+    }
+    #left-div {
+        border: none;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        scroll-padding: 0;
+    }
+    .sdbr {
+        border: none;
+        margin-top: 2px;
+        border-radius: 12px;
+    }
+    #left1, #left2 {
+        border-bottom: 1px solid #E8E8E8;
+        display: flex;
+        flex-direction: column;
+    }
+    #left3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sdbr :hover {
+        background-color: #F2F2F2;
+        border-radius: 12px;
+        color: #171717;
+    }
+    .nav-link {
+        color: #171717;
+    }
+    .forhov :hover {
+        background-color: #F2F2F2;
+        transition: all 0.3s;
+        transition-timing-function: ease-in;
+    }
+    #btns {
+        border: 1px solid #ECECEC;
+    }
+    .sdbr :focus {
+        background-color: #F2F2F2;
+        border-radius: 12px;
+        color: #171717;
+    }
+    li, ul, a, p {
+        font-family: mian;
+    }
+    #videogridnav {
+        border: none;
+    }
+    .navlinkbtn {
+        background-color: #F2F2F2;
+        border-radius: 10px;
+        margin-right: 20px;
+        font-size: 13px;
+    }
+
+    /* Media Queries for Responsiveness */
+
+</style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Icons/youtube (1).png" alt="YouTube Logo" style="height: 30px; width: auto; margin-bottom: 8px;">
+                    <p style="display: inline; font-size: x-large; font-family: mian;" class="mt-4">YouTube<sup style="font-size: x-small;" class="mb-5">PK</sup></p>
+                </a>
+                
+                <form class="d-flex" style="margin-right: 100px;">
+                    <input class="form-control rounded-pill rounded-end-0" type="search" placeholder="Search" aria-label="Search" style="outline: none; box-shadow: none; border-color: #ECECEC; width: 40vw;">
+                    <button class="btn rounded-end-pill mx-0" type="submit" id="btns">
+                        <span class="rounded-end-pill"><a href="#"><img src="Icons/icons8-search-24 (1).png" alt=""></a></span>
+                    </button>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="Icons/mini_icons8-microphone-32.png" alt="Profile" class="rounded-circle">
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="Icons/mini_Video Camera.png" alt="Profile" class="rounded-circle">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="Icons/mini_Youtube-notification-bells-vector-PNG.png" alt="Profile" class="rounded-circle">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="Icons/mini_unnamed.png" alt="Profile" class="rounded-circle">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Layout -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Sidebar (hidden on smaller screens) -->
+                <div class="col-md-3 d-none d-md-block sidebar mt-0" id="left-div">
+                    <div id="left1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/homeori.png" alt="" style="margin-right: 20px;">Home</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/icons8-youtube-shorts-32.png" alt="" style="margin-right: 20px;">Shorts</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/icons8-video-playlist-32.png" alt="" style="margin-right: 20px;">Subscriptions</a></li>
+                    </ul>
+                    </div>
+                    <div id="left2" class="mt-3">
+                        <ul class="nav flex-column">
+                        <li class="nav-item fw-bold mb-3" style="margin-left: 15px;">You</li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/mini_History(1).png" alt="" style="margin-right: 20px;">History</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/mini_mini_playlist (1).png" alt="" style="margin-right: 27px;">Playlists</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/watch-later.png" alt="" style="margin-right: 20px;">Watch later</a></li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/icons8-like-thumbs-up-button-from-popular-social-media-32.png" alt="" style="margin-right: 20px;">Liked videos</a></li>
+                    </ul>
+                    </div>
+                    <div id="left3" class="mt-3">
+                        <ul class="nav flex-column">
+                        <li class="nav-item fw-bold mb-3" style="margin-left: 15px;">Explore</li>
+                        <li class="nav-item sdbr"><a class="nav-link" href="#"><img src="Icons/explore.png" alt="" style="margin-right: 20px;">Explore</a></li>
+                    </ul>
+                    </div>
+                </div>
+
+                <!-- Main Content Area -->
+                <div class="col-12 col-md-9">
+                    <div class="row">
+                        <!-- Example Video Cards (adjust grid columns for mobile/tablet) -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                            <div class="card video-card">
+                                <img src="your-image.jpg" alt="Video Thumbnail" class="card-img-top video-thumbnail">
+                                <div class="card-body">
+                                    <h5 class="card-title video-title">Video Title</h5>
+                                    <p class="card-text channel-details">Channel Name - Views - Date</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Repeat video cards as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
